@@ -167,6 +167,9 @@ p, span {
     width: 200px;
 }
 
+footer {
+    background-color: #F9E7DC;
+}
 
 .footerDiv {
     display: inline-block;
