@@ -10,7 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navHeader {
@@ -36,13 +36,13 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-#plan {
+#plan, #plan2 {
     background-color: #FF764E;
 }
-#learn {
+#learn, #learn2 {
     background-color: #5ED3EB;
 }
-#getInv {
+#getInv, #getInv2 {
     background-color: #FFCD69;
 }
 
@@ -52,6 +52,11 @@
     border-radius: 100%;
     overflow: hidden;
     margin: 2% 2% 2% 10%;
+    background: url('assets/header_img.jpg');
+    background-position: center;
+    background-size: 130% 130%;
+
+
 }
 
 #yosemitePic {
@@ -68,30 +73,33 @@ p, span {
     text-align: center;
     /* width: 71%; */
     /* margin: 10% 20% 10% 5%; */
-    align-content: center;
+    /* margin-left: 10%; */
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 5vh;
 }
 
 #mainHeader {
-    display: inline-block;
-    margin: 0;
+    /* display: inline-block; */
     font-family: 'Chelsea Market', cursive;
     font-size: 6rem;
+    padding: 20px;
+    margin-top: -20%;
 }
 
-#secondP {
+.bold {
+    font-weight: bold;
+}
+
+#secondP, #thirdP {
     display: inline-block;
+    margin: 3%;
     padding: 20px;
 }
-
-#thirdP {
-    display: inline-block;
-    padding: 20px;
-}
-
-
 
 .introContainer {
     margin: 0 10%;
+
 }
 
 /* section {
@@ -103,51 +111,89 @@ p, span {
 
 #greatValley {
     width: 100%;
-    text-align: left;
+    text-align: center;
     background-color: #DDB9A3;
     color: white;
     padding: 10px 20px;
 }
 
 
-
 #secondText {
-    text-indent: 3rem;
+    display: block;
+    text-indent: 2rem;
 }
 
 .fireInfo {
     display: inline-block;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: center;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .campingInfo {
     display: inline-block;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: center;
 }
+/* 
+.firePic {
+    padding: 20px;
+} */
 
 #firepit {
     width: 200px;
+    /* paddinng: 10px; */
 }
 
 .fireText {
     display: inline-block;
-    width: 22vw;
+    width: 23vw;
+    padding: 20px;
+}
+
+.campingText, .rvPic, .fireText, .firePic {
+    padding: 20px;
 }
 
 .campingText {
     display: inline-block;
-    width: 23vw;
+    width: 24vw;
+    /* padding: 20px; */
 }
 
 #rv {
     width: 200px;
 }
 
-#footerImage {
+
+.footerDiv {
+    display: inline-block;
     width: 100%;
+    height: 50vh;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    
 }
+
+#footerImage {
+    width: 100vw;
+}
+
+.navFooter nav {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.navFooter nav a {
+    display: inline-block;
+    margin: 5vh 7vw;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1rem 2rem;
+} 
